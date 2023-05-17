@@ -1,0 +1,89 @@
+#case h1{
+    font-size: 30px;
+    font-family: Inder;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+
+#apartamente h1{
+    font-size: 30px;
+    font-family: Inder;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: -40px;
+}
+
+.anunt {
+    display: flex;
+    box-shadow: 10px 14px 21px -12px #B7D0DB;
+    border-radius: 10px;
+    margin: 60px 0 30px 0;
+    width:80%;
+    left:10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.pret {
+    font-size: 80%;
+    font-family: Inder, sans-serif;
+    font-weight: bolder;
+}
+
+.anunt-titlu {
+    font-size: 30px;
+    font-family: Inder, sans-serif;
+    
+}
+.anunt-img {
+    border-radius: 4px;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.anunt-img:hover {
+    transform: scale(1.1);
+}
+
+.imagine {
+    display: contents;
+}
+
+.anunt-bar {
+    width: 100%;
+    height: 5px;
+    margin: 1px 0 5px 0;
+    border-radius: 5px;
+    background-color: #B19E7C;
+}
+.anunt-text-box {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.anunt-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+}
+
+.foot{
+    padding-bottom: 50px;
+}
+
+.anunt-nou{
+    margin-top: -10px;
+    color: red;
+    font-family: Inder;
+    font-size: 35px;
+}

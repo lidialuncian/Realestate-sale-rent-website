@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B7D0DB;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+}
+
+div{
+    text-space: 5px;
+}

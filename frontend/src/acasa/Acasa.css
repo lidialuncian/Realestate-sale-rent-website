@@ -1,0 +1,15 @@
+.video {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+
+.welcome-text{
+    position:absolute;
+    bottom:10%;
+    right:33%;
+    color: #B7D0DB;
+    font-size:60px;
+    font-family: Inder;
+}

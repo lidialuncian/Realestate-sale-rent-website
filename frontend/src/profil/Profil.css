@@ -1,0 +1,74 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    height: 80%;
+    width: 30%;
+    left: 0;
+    background-color: #D3CAB9;
+}
+
+/* Control the right side */
+.right {
+    width: 65%;
+    right: 0;
+    background-color: white;
+}
+
+.up{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 40%;
+}
+
+.up img{
+    width: 190px;
+    border-radius: 50%;
+}
+.text-profil{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 40%;
+}
+.down-edit{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 40%;
+}
+
+#location:hover{
+    color: blue;
+}
+
+#edit{
+    margin-top: 5px;
+}
+#edit:hover{
+    color: green;
+}
+#edit-clicked{
+    color:green;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inder;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #B7D0DB;
+}
+
+.logo {
+    font-family: Inder;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+    margin-right: auto;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu-items {
+    position: relative;
+    font-size: 15px;
+    font-family: Inder;
+    size: auto;
+}
+
+.menu-items a {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-items button {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+}
+
+button span {
+    margin-left: 3px;
+}
+
+.menu-items > a, .menu-items button {
+    text-align: left;
+    padding: 0.7rem 1rem;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+    background-color: #D3CAB9;
+    size: inherit;
+    display: block;
+}
+
+.arrow::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.28em;
+    vertical-align: 0.09em;
+    border-top: 0.42em solid;
+    border-right: 0.32em solid transparent;
+    border-left: 0.32em solid transparent;
+}
+
+
+ul li ul {
+    position: absolute;
+    width: 100px;
+    display: none;
+}
+ul li {
+    display: inline-block;
+    height: auto;
+}
+ul li:hover {
+    background: #D3CAB9;
+}
+ul li:hover ul {display: block;}
+ul li ul li {
+    background: #B19E7C;
+    display: block;
+    height: 23px;
+    text-align: left;
+}

@@ -1,0 +1,120 @@
+.container-contact {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    background: #D3CAB9;
+    margin:180px 650px 50px;
+}
+
+.text-box {
+    background: linear-gradient(30deg, #D3CAB9, #B7D0DB);
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.text div{
+    margin: -30px 0px;
+    padding-right: 20px;
+}
+
+.text div h1 {
+    color: black;
+    font-size: 20px;
+    font-family: Inder;
+    padding-bottom: 10px;
+}
+
+.text div h3 {
+    max-width: 300px;
+    font-size: 17px;
+    font-family: Inder;
+    font-weight: lighter;
+    margin: -10px 0px;
+}
+
+.form {
+    align-content: center;
+    margin-right:100px;
+}
+
+.form h1{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Inder;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.form-content label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.form-content input {
+    width: 2000%;
+    height: 30px;
+    font-size: 15px;
+    margin-top: -2px;
+    border-radius: 4px;
+}
+
+.form-content textarea {
+    width: 2000%;
+    min-height: 80px;
+    resize: none;
+    padding: 10px;
+    margin-top: -1px;
+    border-radius: 4px;
+}
+
+.form button {
+    width: 200px;
+    height: 30px;
+    background: black;
+    color: #D3CAB9;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    position: relative;
+    left: calc(50% - 108px);
+    cursor: pointer;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.background {
+    background-image: url("./ap4.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: -100px;
+}

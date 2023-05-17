@@ -1,0 +1,171 @@
+/* Split the screen in half */
+.half {
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.le {
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    height: 80%;
+    width: 40%;
+    left: 0;
+    background-color: #D3CAB9;
+}
+
+/* Control the right side */
+.ri {
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    height: 80%;
+    width: 60%;
+    right: 0;
+    background-color: #B19E7C;
+}
+
+.picture{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 40%;
+}
+.picture img{
+    width: 290px;
+}
+
+.picture h3{
+    margin-top: 10px;
+}
+
+.image-down{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 40%;
+    width: 80%;
+}
+
+.text-anunt {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    height: 40%;
+}
+
+.ri h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#date-picker{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    height: 40%;
+}
+#time-picker{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    height: 40%;
+}
+
+#time-picker Button{
+    margin-top: 150px;
+    /*background-color: #B7D0DB;*/
+}
+
+#time-select:disabled{
+    background-color: #f2f2f2;
+    color: gray;
+    cursor: default;
+    pointer-events: none;
+    max-width: 100px ;
+}
+
+#statistic-buttons{
+    display: grid;
+    position: absolute;
+    top: 30%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 20%;
+}
+
+.button2:active {
+    color: #3e8e41;
+    box-shadow: 0 5px #3e8e41;
+    transform: translateY(4px);
+}
+
+.button2:focus {
+    background-color: red;
+    color: #3e8e41;
+}
+
+.button2:hover {
+    color: #3e8e41
+}
+
+.calendar-programari{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 60%;
+}
+
+#calendar-prog{
+    text-align: left;
+    margin-left: 60px;
+}
+
+.fc {
+    width: 800px;
+    height: 400px;
+}
+
+.fc-day {
+    width: 112px;
+    height: 100px;
+}
+
+.fc-widget-header {
+    height: 50px;
+}
+
+.fc-event {
+    height: 30px;
+    width: 100px;
+}
+
+.statistici-programari{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    height: 60%;
+}
+

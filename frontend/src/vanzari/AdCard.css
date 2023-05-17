@@ -1,0 +1,40 @@
+#icons{
+    align-self: flex-end;
+}
+#edit{
+    align-self: flex-end;
+    margin: 5px;
+}
+
+#edit:hover{
+    color: green;
+}
+
+#delete{
+    align-self: flex-end;
+    margin: 5px;
+}
+
+#delete:hover{
+    color: red;
+}
+
+#heart{
+    align-self: flex-end;
+    margin: 5px;
+}
+#heart:hover{
+    color: red;
+}
+
+#heart-clicked{
+    color: red;
+}
+
+#view:hover{
+    color: blue;
+}
+#view{
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
